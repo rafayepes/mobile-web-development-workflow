@@ -1,4 +1,8 @@
 
+  ///////////////////
+ // CUSTOM STYLES //
+///////////////////
+
 html {
 	font-size: 62.5%;
 }
@@ -33,4 +37,11 @@ body {
 
 .footer {
 	@extend %layout-content;
+}
+
+.pure-menu.pure-menu-open {
+	background: transparent;
+}
+.pure-menu li a {
+	background-color: rgba( white, .15 );
 }

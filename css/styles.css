@@ -1,29 +1,39 @@
-/* line 2, ../scss/styles.scss */
+/* line 6, ../scss/styles.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 6, ../scss/styles.scss */
+/* line 10, ../scss/styles.scss */
 body {
   font: 1.6rem/1.5 sans-serif;
 }
 
-/* line 10, ../scss/styles.scss */
+/* line 14, ../scss/styles.scss */
 .header, .body, .footer {
   padding: 2rem;
 }
 
-/* line 15, ../scss/styles.scss */
+/* line 19, ../scss/styles.scss */
 .header {
   background-color: black;
   color: white;
 }
-/* line 20, ../scss/styles.scss */
+/* line 24, ../scss/styles.scss */
 .header h1 {
   margin-top: 0;
 }
 
-/* line 29, ../scss/styles.scss */
+/* line 33, ../scss/styles.scss */
 .body h2 {
   margin-top: 0;
+}
+
+/* line 42, ../scss/styles.scss */
+.pure-menu.pure-menu-open {
+  background: transparent;
+}
+
+/* line 45, ../scss/styles.scss */
+.pure-menu li a {
+  background-color: rgba(255, 255, 255, 0.15);
 }
