@@ -1,0 +1,29 @@
+/* line 2, ../scss/styles.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 6, ../scss/styles.scss */
+body {
+  font: 1.6rem/1.5 sans-serif;
+}
+
+/* line 10, ../scss/styles.scss */
+.header, .body, .footer {
+  padding: 2rem;
+}
+
+/* line 15, ../scss/styles.scss */
+.header {
+  background-color: black;
+  color: white;
+}
+/* line 20, ../scss/styles.scss */
+.header h1 {
+  margin-top: 0;
+}
+
+/* line 29, ../scss/styles.scss */
+.body h2 {
+  margin-top: 0;
+}
