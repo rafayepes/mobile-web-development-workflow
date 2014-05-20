@@ -28,12 +28,22 @@ body {
   margin-top: 0;
 }
 
-/* line 42, ../scss/styles.scss */
+/* line 39, ../scss/styles.scss */
+.footer {
+  background-color: #4d4d4d;
+  color: white;
+}
+/* line 44, ../scss/styles.scss */
+.footer a {
+  color: #b3b3b3;
+}
+
+/* line 49, ../scss/styles.scss */
 .pure-menu.pure-menu-open {
   background: transparent;
 }
 
-/* line 45, ../scss/styles.scss */
+/* line 52, ../scss/styles.scss */
 .pure-menu li a {
   background-color: rgba(255, 255, 255, 0.15);
 }

@@ -23,7 +23,7 @@ module.exports = function( grunt ) {
 		browserSync: {
 			dev: {
 				bsFiles: {
-					src : 'css/*.css'
+					src : ['css/*.css', 'js/*.js', '*.php', '*.html']
 				},
 				options: {
 					watchTask: true,

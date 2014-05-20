@@ -36,7 +36,14 @@ body {
 }
 
 .footer {
-	@extend %layout-content;
+	& {
+		@extend %layout-content;
+		background-color: lighten( black, 30 );
+		color: white;
+	}
+	a {
+		color: darken( white, 30 );
+	}
 }
 
 .pure-menu.pure-menu-open {

@@ -16,16 +16,22 @@
 
 <section class="pure-u-1-2">
 	<h2>Workshop contents</h2>
+	<ol>
+		<li>Quisque consectetur nibh a rhoncus sodales.</li>
+		<li>Suspendisse blandit posuere commodo.</li>
+		<li>Proin et dolor quis sem faucibus lacinia facilisis a mauris.</li>
+		<li>Sed fermentum volutpat gravida. Cras tincidunt quam quis turpis fermentum imperdiet.</li>
+	</ol>
 </section>
 
 <section class="pure-u-1-2">
 	<h2>Send us your feedback</h2>
 
-	<form action="" class="pure-form pure-form-aligned">
+	<form action="<?php print $path; ?>thanks/" method="post" class="pure-form pure-form-aligned">
 		<fieldset>
 			<div class="pure-control-group">
 				<label for="name">Name</label>
-				<input id="name" type="text" placeholder="Name">
+				<input id="name" type="text" name="name" placeholder="Name">
 			</div>
 
 			<div class="pure-control-group">
